@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int find_max(int x, int y) {
+    if (x > y) {
+        return x;
+    } else {
+        return y;
+    }
+}
+
+int main() {
+    int result = find_max(54, 91);
+    printf("%d\n", result);
+    return 0;
+}
