@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int number;
+    int max = -2147483648; 
+
+    do {
+        scanf("%d", &number);
+        if (number != 0 && number > max) {
+            max = number;
+        }
+    } while (number != 0);
+
+    if (max != -2147483648) {
+        printf("%d\n", max);
+    }
+
+    return 0;
+}
