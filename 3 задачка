@@ -1,3 +1,5 @@
+сравнение a b с b и поиск
+
 #include <stdio.h>
 
 int main() {
