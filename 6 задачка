@@ -1,3 +1,5 @@
+//Абдуллаев 201-ис-25
+
 #include <stdio.h>
 
 int find_max(int x, int y) {
@@ -13,3 +15,4 @@ int main() {
     printf("%d\n", result);
     return 0;
 }
+функции с переменными
