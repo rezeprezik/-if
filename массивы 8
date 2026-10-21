@@ -1,0 +1,28 @@
+//Абдуллаев 201-ИС-25 22.10.26
+#include <stdio.h>
+
+int main() {
+    int arr[] = {1, 2, 3, 4, 5};
+    int start = 0;
+    int end = 4; // Индекс последнего элемента
+    
+    // Сближаем указатели
+    while (start < end) {
+        // Меняем элементы местами
+        int temp = arr[start];
+        arr[start] = arr[end];
+        arr[end] = temp;
+        
+        start++; // вправо
+        end--;   // влево
+    }
+    
+    // Вывод
+    for (int i = 0; i < 5; i++) {
+        printf("%d ", arr[i]);
+    }
+    
+    return 0;
+}
+
+/Зеркальный обмен крайних элементов со сдвигом к центру массива
